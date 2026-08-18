@@ -8,7 +8,26 @@ Implementação de uma árvore binária em Java, desenvolvida para fins de estud
 - **Em ordem**: Esquerda → Raiz → Direita
 - **Pós-ordem**: Esquerda → Direita → Raiz
 
+## Representação da Expressão
+
+O projeto utiliza uma árvore binária para representar a expressão matemática:
+
+**(a × b) + ((x − y) ÷ (c + e))**
+
+Na árvore, os **operadores** são representados pelos nós internos, enquanto os **operandos** são representados pelas folhas.
+
+### Estrutura da Árvore
+
+```text
+                 +
+               /   \
+              *     /
+             / \   / \
+            a   b -   +
+               / \ / \
+              x  y c  e
+```
 
 ## Objetivo
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos de árvores binárias, manipulação de nós e implementação de percursos recursivos em Java.
+Praticar conceitos de node, árvores binárias, manipulação de nós e implementação de percursos recursivos em Java.
